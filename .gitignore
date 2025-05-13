@@ -1,3 +1,5 @@
+# Cursor
+.cursor
 
 ###> symfony/framework-bundle ###
 /.env.local
