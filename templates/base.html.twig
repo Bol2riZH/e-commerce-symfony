@@ -10,6 +10,8 @@
         {% block javascripts %}
             {% block importmap %}{{ importmap('app') }}{% endblock %}
         {% endblock %}
+        
+        <script src="https://unpkg.com/feather-icons"></script>
     </head>
     <body>
         <header data-bs-theme="dark">
@@ -35,8 +37,8 @@
                         </li>
                     </ul>
                     <div class="speed-menu">
-                        <a href=""><i data-feather="user"></i></a>
-                        <a href=""><i data-feather="shopping-cart"></i></a>
+                        <a href=""><i data-feather="user"></i>User</a>
+                        <a href=""><i data-feather="shopping-cart"></i>Panier</a>
                     </div>
                 </div>
                 </div>
